@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Production builds
+/client/build/
+/server/dist/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Testing
+/client/coverage/
+
+# Cache files
+.npm/
+.eslintcache
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Debug log from npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local Netlify folder
+.netlify
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock 
