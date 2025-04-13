@@ -1,4 +1,4 @@
-# Real-time Organizer App
+# Real-time Item/Folder Organiser App
 
 A real-time web application that allows users to organize items into folders with drag-and-drop functionality. Changes made in one session sync in real-time across all open sessions.
 
