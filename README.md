@@ -14,10 +14,10 @@ A real-time web application that allows users to organize items into folders wit
 
 ## Technology Stack
 
-- **Frontend**: React, TypeScript, Material UI, react-beautiful-dnd
+- **Frontend**: React, TypeScript, Material UI, react-beautiful-dnd (for drag and drop)
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Real-time Communication**: Socket.io
+- **Real-time Communication**: Socket.io (for real time session maintain)
 
 ## Prerequisites
 
@@ -25,7 +25,7 @@ Before you can run this application, you need to have the following installed:
 
 - Node.js (v14 or later)
 - npm (v6 or later)
-- MongoDB (running locally or accessible remotely)
+- MongoDB (I used mongoDB atlas cluster)
 
 ## Setup and Installation
 
@@ -33,7 +33,7 @@ Before you can run this application, you need to have the following installed:
 
 ```bash
 git clone <repository-url>
-cd real-time-organizer
+cd adaline-assignment
 ```
 
 ### 2. Install dependencies
@@ -112,4 +112,4 @@ If you encounter an error, you'll see an error message with an option to retry t
 
 - The application automatically saves changes to the database
 - If you have multiple browser tabs/windows open, changes in one will reflect in all others in real-time
-- The application uses local MongoDB for data storage, make sure MongoDB is running before starting the server
+- The application uses mongo DB atlas, cloud cluster for data storage, make sure MongoDB cluster is running and you are successfully connected before starting the server
